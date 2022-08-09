@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './NavFoot.css'
+import styles from './NavFoot.module.css'
 
 function Navbar() {
     return (
@@ -12,7 +12,7 @@ function Navbar() {
                     </li>
                 </Link>
                 <Link to='/shop'>
-                    <li>
+                    <li className={styles.li1}>
                         Shop
                     </li>
                 </Link>

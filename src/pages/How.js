@@ -1,5 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar';
+import styles from '../styles/How.module.css';
+
 
 function How() {
     return (
